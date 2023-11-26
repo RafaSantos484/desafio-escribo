@@ -14,14 +14,14 @@ Se pegarmos agora a sequência de subtrações entre um divisor e o divisor ante
 
 - 2, 1, 3, 1, 2, 3, 3, 2, 1, 3, 1, 2, 3, 3, 2, 1, 3, 1, ...
 
-Perceba que esta sequência nada mais é do que a repetição da sequência `A=[2, 1, 3, 1, 2, 3, 3]`. Em outras palavras, podemos saber quem é o próximo múltiplo de 2 ou 3 sem necessariamente testar os próximos números até encontrar algum divisível por 2 ou 3. Basta que somemos o divisor atual pela posição correspondendo na sequeência `A`.
+Perceba que esta sequência nada mais é do que a repetição da sequência `A=[2, 1, 3, 1, 2, 3, 3]`. Em outras palavras, podemos saber quem é o próximo múltiplo de 2 ou 3 sem necessariamente testar os próximos números até encontrar algum divisível por 2 ou 3. Basta que somemos o divisor atual pela elemento correspondendo de `A`.
 
 ### Rodando o código
 
 Rode o arquivo `desafio.js` usando o comando `node`:
 
 ```bash
-  $ node desafio.js N
+node desafio.js N
 ```
 
 Onde `N` é a entrada do problema.
